@@ -6,8 +6,8 @@ int main(){
 
     do{
         double ent1, ent2;
+        
         scanf("%lf", &ent1);
-
         while(ent1 < 0 || ent1 > 10){
             printf("nota invalida\n");
             scanf("%lf", &ent1);
@@ -15,7 +15,6 @@ int main(){
         double nota1 = ent1;
 
         scanf("%lf", &ent2);
-
         while(ent2 < 0 || ent2 > 10){
             printf("nota invalida\n");
             scanf("%lf", &ent2);
